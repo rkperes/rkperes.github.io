@@ -18,6 +18,7 @@ body {
     color: #d0d0d0;
 
     font-family: "Courier Prime", "Courier New";
+    font-size: 1.2vw;
 }
 
 a {
@@ -28,7 +29,7 @@ a {
     color: #e6db74;
     text-align: right;
     margin-bottom: 20px;
-    font-size: small;
+    font-size: 1vw;
 }
 
 .profile {

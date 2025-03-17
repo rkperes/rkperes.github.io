@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@tailwind utilities;
+
+@theme {
+  --color-espresso: #1a120b;
+  --color-capuccino: #3c2a21;
+  --color-flatwhite: #d5cea3;
+  --color-milk: #e5e5cb;
+}
+
+html,
+body {
+  @apply bg-espresso text-milk;
+  @apply antialiased font-mono;
+}

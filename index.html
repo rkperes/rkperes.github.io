@@ -1,25 +1,37 @@
-<!DOCTYPE html>
-
-<!-- to check: https://blog.rysolv.com/how-to-build-a-simple-developer-portfolio-to-get-hired -->
+<!doctype html>
 
 <html>
 
 <head>
     <title>Rafael Koch Peres</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
 
 <body>
-    <div class="header">
-        <a href="mailto:rkperes@rkperes.dev">rkperes@rkperes.dev</a> <a href="content/resume.pdf">resume</a>
-    </div>
-    <div class="profile">
-        <img src="content/profile.jpg" id="profile-pic" />
-        <p>
-            Rafael Koch Peres <br><br>
-            Software developer and Scrum product owner that enjoys innovative and technical discussions. <br>
-            Also yoga instructor at <a href="https://pakua.com" target="_blank">Pa Kua</a>.
-        </p>
+    <div class="flex flex-col justify-center items-center gap-4 w-screen p-4">
+        <div class="flex justify-end items-center gap-2 w-10/12 md:w-8/12 text-flatwhite font-light text-sm">
+            <a href="mailto:rkperes@rkperes.dev">rkperes@rkperes.dev</a>
+            <a href="content/resume.pdf">resume</a>
+            <div class="h-4 w-4">
+                <a href="https://github.com/rkperes">
+                    <img src="content/github.svg" />
+                </a>
+            </div>
+        </div>
+        <div class="flex flex-col gap-2 text-justify justify-center md:flex-row w-10/12 md:w-8/12">
+            <img class="h-50 w-50 shadow-black rounded-lg sepia-[.2]" src="content/profile.jpg" />
+            <div>
+                <p>
+                    Rafael Koch Peres <br /><br />
+                    Software developer and tech lead that enjoys innovative and
+                    technical discussions. <br />
+                </p>
+                <p class="italic mt-8 text-xs text-right text-flatwhite">
+                    More content coming soon.
+                </p>
+            </div>
+        </div>
     </div>
 </body>
 

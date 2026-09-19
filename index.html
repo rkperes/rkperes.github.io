@@ -1,9 +1,13 @@
 <!doctype html>
 
-<html>
+<html lang="en">
 
 <head>
+    <meta charset="utf-8" />
     <title>Rafael Koch Peres</title>
+    <meta name="description"
+        content="Rafael Koch Peres — software developer and tech lead. Eight years in Go, four at Uber." />
+    <link rel="icon" href="favicon.ico" />
     <link rel="stylesheet" href="style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
@@ -11,24 +15,29 @@
 <body>
     <div class="flex flex-col justify-center items-center gap-4 w-screen p-4">
         <div class="flex justify-end items-center gap-2 w-10/12 md:w-8/12 text-flatwhite font-light text-sm">
-            <a href="mailto:rkperes@rkperes.dev">rkperes@rkperes.dev</a>
-            <a href="content/resume.pdf">resume</a>
-            <div class="h-4 w-4">
-                <a href="https://github.com/rkperes">
-                    <img src="content/github.svg" />
-                </a>
-            </div>
+            <a class="hover:text-milk" href="mailto:rkperes@rkperes.dev">rkperes@rkperes.dev</a>
+            <a class="hover:text-milk" href="content/resume.pdf">resume</a>
+            <a class="h-4 w-4 hover:opacity-70" href="https://github.com/rkperes" aria-label="GitHub">
+                <img src="content/github.svg" alt="GitHub" />
+            </a>
         </div>
         <div class="flex flex-col gap-2 text-justify justify-center md:flex-row w-10/12 md:w-8/12">
-            <img class="h-50 w-50 shadow-black rounded-lg sepia-[.2]" src="content/profile.jpg" />
+            <img class="h-50 w-50 shadow-black rounded-lg sepia-[.2]" src="content/profile.jpg"
+                alt="Rafael Koch Peres" />
             <div>
                 <p>
                     Rafael Koch Peres <br /><br />
                     Software developer and tech lead that enjoys innovative and
-                    technical discussions. <br />
+                    technical discussions. <br /><br />
+                    Eight years in Go. <br />
+                    Four at Uber, building and migrating compliance-sensitive services behind the recruiting platform, and leading a team of 10. <br />
+                    Before that, SAP's Kubernetes-native data-pipeline engine. <br />
                 </p>
-                <p class="italic mt-8 text-xs text-right text-flatwhite">
-                    More content coming soon.
+                <p class="mt-8">
+                    <a class="inline-block rounded border border-flatwhite px-3 py-1.5 text-sm text-flatwhite hover:bg-flatwhite hover:text-espresso"
+                        href="content/resume.pdf" download="rafael-koch-peres-resume.pdf">
+                        Download resume (PDF)
+                    </a>
                 </p>
             </div>
         </div>
